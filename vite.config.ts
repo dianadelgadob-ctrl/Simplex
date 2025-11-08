@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: "/Simplex/simplex4/",  // <-- EXACT repo name with trailing slashes
+    base: "/Simplex/",  // <-- EXACT repo name with trailing slashes
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
